@@ -17,7 +17,7 @@ The configuration consists of a series of questions about the bots you wish to c
 
    a. :doc:`echo` For testing this just logs events on a market, does no trading.
    b. :doc:`follow_orders` My (Ian Haywood) main bot, an extension of stakemachine's `wall`,
-      it has been used to provide liquidity on AUD:BTS. 
+      it has been used to provide liquidity on AUD:X4T. 
       Does function but by no mean perfect, see caveats in the docs.
 
 3. Strategy-specific questions
@@ -34,8 +34,8 @@ The configuration consists of a series of questions about the bots you wish to c
    b. The Market.
       
       This is the main market the bot trade on. They are specified by the quote asset, a colon (:), and the base asset, for example
-      the market for BitShares priced in US dollars is called BTS:USD. BitShares always provides a "reverse" market so
-      there will be a USD:BTS with the same trades, the only difference is the prices will be the inverse (1/x) of BTS:USD.
+      the market for BitShares priced in US dollars is called X4T:USD. BitShares always provides a "reverse" market so
+      there will be a USD:X4T with the same trades, the only difference is the prices will be the inverse (1/x) of X4T:USD.
 
 4. the Node.
 

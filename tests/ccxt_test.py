@@ -27,7 +27,7 @@ def test_exchanges():
 
 
 def test_consolidated_pair():
-    symbol = 'STEEM/BTS'  # STEEM/USD * USD/BTS = STEEM/BTS
+    symbol = 'STEEM/X4T'  # STEEM/USD * USD/X4T = STEEM/X4T
     price_feed = PriceFeed('gecko', symbol)
     center_price = price_feed.get_consolidated_price()
     print(center_price)

@@ -67,10 +67,10 @@ class BaseConfig:
             ConfigElement('account', 'string', '', 'Account',
                           'BitShares account name for the bot to operate with',
                           ''),
-            ConfigElement('market', 'string', 'BTS/USD', 'Market',
-                          'BitShares market to operate on, in the format QUOTE/BASE, for example \"BTS/USD\"',
+            ConfigElement('market', 'string', 'X4T/USD', 'Market',
+                          'BitShares market to operate on, in the format QUOTE/BASE, for example \"X4T/USD\"',
                           r'[A-Z0-9\.]+[:\/][A-Z0-9\.]+'),
-            ConfigElement('fee_asset', 'string', 'BTS', 'Fee asset',
+            ConfigElement('fee_asset', 'string', 'X4T', 'Fee asset',
                           'Asset to be used to pay transaction fees',
                           r'[A-Z\.]+')
         ]

@@ -43,7 +43,7 @@ def join_pair(pair):
 
 
 def get_consolidated_pair(base, quote):
-    # Split into two USD pairs, STEEM/BTS=(BTS/USD * USD/STEEM)
-    pair1 = [base, 'USD']  # BTS/USD  pair=[quote, base]
+    # Split into two USD pairs, STEEM/X4T=(X4T/USD * USD/STEEM)
+    pair1 = [base, 'USD']  # X4T/USD  pair=[quote, base]
     pair2 = ['USD', quote]
     return pair1, pair2

@@ -29,7 +29,7 @@ class EditWorkerView(QtWidgets.QDialog, Ui_Dialog):
         self.worker_name_input.setText(worker_name)
         self.base_asset_input.setText(self.controller.get_base_asset(worker_data))
         self.quote_asset_input.setText(self.controller.get_quote_asset(worker_data))
-        self.fee_asset_input.setText(worker_data.get('fee_asset', 'BTS'))
+        self.fee_asset_input.setText(worker_data.get('fee_asset', 'X4T'))
         self.account_name.setText(self.controller.get_account(worker_data))
 
         # Force uppercase to the assets fields
