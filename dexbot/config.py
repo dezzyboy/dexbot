@@ -170,5 +170,8 @@ class Config(dict):
         """ A pre-defined list of Bitshares nodes. """
         return [
             "wss://node-tokyo.x4trade.org:11020",
-            "wss://node-tokyo.x4trade.org:11020"
+            "wss://node-tokyo.x4trade.org:11020",
+            "wss://ca-mtl-node.x4trade.org:9090",
+            "wss://node-asia-east.x4trade.org:9090",
+            "wss://node-euro-west.x4trade.org:9090"
         ]
